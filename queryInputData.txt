@@ -1,0 +1,448 @@
+use finprooop;
+
+CREATE TABLE soaldanjawaban1_1(
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban1_1 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('Which planet is known as the "Red Planet"?', 'Mars', 'Venus', 'Mercury', 'Jupiter', 'jawaban1'),
+('Who is the author of "The Great Gatsby"?', 'F. Scott Fitzgerald', 'Ernest Hemingway', 'Jane Austen', 'Mark Twain', 'jawaban1'),
+('What is the largest ocean in the world?', 'Pacific Ocean', 'Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean', 'jawaban1'),
+('What year did the Titanic sink?', '1912', '1908', '1920', '1930', 'jawaban1'),
+('What is the capital of France?', 'Paris', 'Rome', 'Berlin', 'Madrid', 'jawaban1'),
+('Who painted the Mona Lisa?', 'Leonardo da Vinci', 'Pablo Picasso', 'Vincent van Gogh', 'Michelangelo', 'jawaban1'),
+('Which country is known as the "Land of the Rising Sun"?', 'Japan', 'China', 'Korea', 'Vietnam', 'jawaban1'),
+('What is the largest mammal?', 'Blue Whale', 'Elephant', 'Giraffe', 'Hippo', 'jawaban1'),
+('What is the chemical symbol for gold?', 'Au', 'Ag', 'Fe', 'Cu', 'jawaban1'),
+('Who wrote "To Kill a Mockingbird"?', 'Harper Lee', 'George Orwell', 'William Shakespeare', 'Charles Dickens', 'jawaban1'),
+('What is the longest river in the world?', 'Nile River', 'Amazon River', 'Yangtze River', 'Mississippi River', 'jawaban1'),
+('Which country is the largest by land area?', 'Russia', 'Canada', 'China', 'United States', 'jawaban1'),
+('What is the currency of India?', 'Rupee', 'Dollar', 'Euro', 'Yen', 'jawaban1'),
+('Who invented the telephone?', 'Alexander Graham Bell', 'Thomas Edison', 'Nikola Tesla', 'Guglielmo Marconi', 'jawaban1'),
+('What is the national animal of Australia?', 'Kangaroo', 'Koala', 'Emu', 'Platypus', 'jawaban1'),
+('What is the highest mountain in North America?', 'Denali (Mount McKinley)', 'Mount Whitney', 'Mount Rainier', 'Mount St. Elias', 'jawaban1');
+
+CREATE TABLE soaldanjawaban1_2 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban1_2 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of Italy?', 'Rome', 'Paris', 'Berlin', 'Madrid', 'jawaban1'),
+('Which planet is known as the Red Planet?', 'Mars', 'Venus', 'Mercury', 'Jupiter', 'jawaban1'),
+('Who is the author of "Romeo and Juliet"?', 'William Shakespeare', 'Charles Dickens', 'Jane Austen', 'Mark Twain', 'jawaban1'),
+('What is the largest mammal?', 'Blue Whale', 'Elephant', 'Giraffe', 'Hippo', 'jawaban1'),
+('What year did World War II end?', '1945', '1918', '1939', '1950', 'jawaban1'),
+('What is the chemical symbol for water?', 'H2O', 'CO2', 'O2', 'NaCl', 'jawaban1'),
+('Which country is known as the "Land of the Rising Sun"?', 'Japan', 'China', 'Korea', 'Vietnam', 'jawaban1'),
+('Who painted the famous artwork "Starry Night"?', 'Vincent van Gogh', 'Leonardo da Vinci', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('What is the highest mountain in the world?', 'Mount Everest', 'K2', 'Kangchenjunga', 'Makalu', 'jawaban1'),
+('What is the currency of Japan?', 'Yen', 'Dollar', 'Euro', 'Pound', 'jawaban1'),
+('What is the largest ocean in the world?', 'Pacific Ocean', 'Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean', 'jawaban1'),
+('Who invented the light bulb?', 'Thomas Edison', 'Albert Einstein', 'Nikola Tesla', 'Alexander Graham Bell', 'jawaban1'),
+('What is the national flower of England?', 'Rose', 'Lotus', 'Sunflower', 'Tulip', 'jawaban1'),
+('Which country is famous for the ancient city of Petra?', 'Jordan', 'Egypt', 'Greece', 'Italy', 'jawaban1'),
+('Who wrote the play "Hamlet"?', 'William Shakespeare', 'John Milton', 'George Orwell', 'F. Scott Fitzgerald', 'jawaban1'),
+('What is the largest desert in the world?', 'Sahara Desert', 'Gobi Desert', 'Arabian Desert', 'Kalahari Desert', 'jawaban1');
+
+CREATE TABLE soaldanjawaban1_3 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban1_3 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('Who is known as the "Father of Modern Physics"?', 'Albert Einstein', 'Isaac Newton', 'Nikola Tesla', 'Galileo Galilei', 'jawaban1'),
+('What is the smallest planet in our solar system?', 'Mercury', 'Venus', 'Earth', 'Mars', 'jawaban1'),
+('Which city is famous for its leaning tower?', 'Pisa', 'Rome', 'Milan', 'Florence', 'jawaban1'),
+('What is the national bird of the United States?', 'Bald Eagle', 'Peacock', 'Sparrow', 'Parrot', 'jawaban1'),
+('Who composed the famous Symphony No. 9?', 'Ludwig van Beethoven', 'Wolfgang Amadeus Mozart', 'Johann Sebastian Bach', 'Frederic Chopin', 'jawaban1'),
+('What is the largest species of bear?', 'Polar Bear', 'Grizzly Bear', 'Black Bear', 'Kodiak Bear', 'jawaban1'),
+('Which planet is closest to the Sun?', 'Mercury', 'Venus', 'Earth', 'Mars', 'jawaban1'),
+('Who wrote "The Adventures of Tom Sawyer"?', 'Mark Twain', 'Charles Dickens', 'William Shakespeare', 'J.K. Rowling', 'jawaban1'),
+('What is the main ingredient in guacamole?', 'Avocado', 'Tomato', 'Onion', 'Lime', 'jawaban1'),
+('Which river is often called the "Cradle of Civilization"?', 'Tigris-Euphrates River (Euphrates)', 'Nile River', 'Indus River', 'Yellow River', 'jawaban1'),
+('Who discovered penicillin?', 'Alexander Fleming', 'Louis Pasteur', 'Marie Curie', 'Gregor Mendel', 'jawaban1'),
+('What is the currency of China?', 'Yuan', 'Dollar', 'Euro', 'Pound', 'jawaban1'),
+('Who painted the famous artwork "The Starry Night"?', 'Vincent van Gogh', 'Leonardo da Vinci', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('What is the national flower of France?', 'Lily', 'Rose', 'Sunflower', 'Tulip', 'jawaban1'),
+('Which country is the largest producer of coffee?', 'Brazil', 'Colombia', 'Vietnam', 'Ethiopia', 'jawaban1'),
+('Who is the author of the book "1984"?', 'George Orwell', 'Ray Bradbury', 'Aldous Huxley', 'J.R.R. Tolkien', 'jawaban1');
+
+CREATE TABLE soaldanjawaban1_4 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban1_4 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of Australia?', 'Canberra', 'Sydney', 'Melbourne', 'Brisbane', 'jawaban1'),
+('Who is the author of "Pride and Prejudice"?', 'Jane Austen', 'Charles Dickens', 'William Shakespeare', 'Emily Brontë', 'jawaban1'),
+('What is the largest continent by land area?', 'Asia', 'Europe', 'Africa', 'North America', 'jawaban1'),
+('Which animal is known as the "King of the Jungle"?', 'Lion', 'Tiger', 'Leopard', 'Elephant', 'jawaban1'),
+('What is the chemical symbol for iron?', 'Fe', 'Au', 'Ag', 'Cu', 'jawaban1'),
+('Who is credited with the theory of general relativity?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('Which country is known for the famous building, the Colosseum?', 'Italy', 'Greece', 'Spain', 'France', 'jawaban1'),
+('What is the largest bird in the world?', 'Ostrich', 'Eagle', 'Albatross', 'Pelican', 'jawaban1'),
+('Who wrote the novel "The Catcher in the Rye"?', 'J.D. Salinger', 'F. Scott Fitzgerald', 'Ernest Hemingway', 'George Orwell', 'jawaban1'),
+('Which river is the longest in the world?', 'Nile River', 'Amazon River', 'Yangtze River', 'Mississippi River', 'jawaban1'),
+('Who is the first person to step on the moon?', 'Neil Armstrong', 'Buzz Aldrin', 'Alan Shepard', 'Yuri Gagarin', 'jawaban1'),
+('What is the currency of Brazil?', 'Real', 'Peso', 'Euro', 'Dollar', 'jawaban1'),
+('Who painted the famous artwork "Mona Lisa"?', 'Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('Which country is known as the "Land of the Midnight Sun"?', 'Norway', 'Finland', 'Sweden', 'Iceland', 'jawaban1'),
+('Who is the lead vocalist of the band Queen?', 'Freddie Mercury', 'David Bowie', 'Elton John', 'Mick Jagger', 'jawaban1'),
+('What is the smallest ocean in the world?', 'Arctic Ocean', 'Atlantic Ocean', 'Pacific Ocean', 'Indian Ocean', 'jawaban1');
+
+CREATE TABLE soaldanjawaban2_1 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban2_1 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of France?', 'Paris', 'Rome', 'Berlin', 'Madrid', 'jawaban1'),
+('Who is the author of "To Kill a Mockingbird"?', 'Harper Lee', 'John Steinbeck', 'F. Scott Fitzgerald', 'Mark Twain', 'jawaban1'),
+('What is the largest planet in our solar system?', 'Jupiter', 'Saturn', 'Mars', 'Earth', 'jawaban1'),
+('Which animal is known as the "Ship of the Desert"?', 'Camel', 'Elephant', 'Horse', 'Giraffe', 'jawaban1'),
+('What is the chemical symbol for gold?', 'Au', 'Ag', 'Fe', 'Cu', 'jawaban1'),
+('Who developed the theory of evolution by natural selection?', 'Charles Darwin', 'Albert Einstein', 'Isaac Newton', 'Gregor Mendel', 'jawaban1'),
+('Which country is famous for the Taj Mahal?', 'India', 'Egypt', 'Turkey', 'Iran', 'jawaban1'),
+('What is the tallest building in the world?', 'Burj Khalifa', 'Shanghai Tower', 'One World Trade Center', 'Taipei 101', 'jawaban1'),
+('Who wrote the book "The Catcher in the Rye"?', 'J.D. Salinger', 'F. Scott Fitzgerald', 'Ernest Hemingway', 'Mark Twain', 'jawaban1'),
+('Which river is the longest river in South America?', 'Amazon River', 'Nile River', 'Congo River', 'Yangtze River', 'jawaban1'),
+('Who discovered penicillin?', 'Alexander Fleming', 'Louis Pasteur', 'Marie Curie', 'Gregor Mendel', 'jawaban1'),
+('What is the currency of South Africa?', 'Rand', 'Peso', 'Euro', 'Dollar', 'jawaban1'),
+('Who painted the famous artwork "The Persistence of Memory"?', 'Salvador Dalí', 'Pablo Picasso', 'Vincent van Gogh', 'Leonardo da Vinci', 'jawaban1'),
+('Which country is known as the "Land of the Thunder Dragon"?', 'Bhutan', 'Nepal', 'Tibet', 'Myanmar', 'jawaban1'),
+('Who is the author of the novel "1984"?', 'George Orwell', 'Aldous Huxley', 'Ray Bradbury', 'J.R.R. Tolkien', 'jawaban1'),
+('What is the largest delta in the world?', 'Ganges Delta', 'Niger Delta', 'Amazon Delta', 'Mekong Delta', 'jawaban1');
+
+CREATE TABLE soaldanjawaban2_2 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+INSERT INTO soaldanjawaban2_2 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of Canada?', 'Ottawa', 'Toronto', 'Vancouver', 'Montreal', 'jawaban1'),
+('Who is the author of "The Great Gatsby"?', 'F. Scott Fitzgerald', 'Ernest Hemingway', 'Jane Austen', 'Mark Twain', 'jawaban1'),
+('What is the smallest country in the world?', 'Vatican City', 'Monaco', 'Maldives', 'San Marino', 'jawaban1'),
+('Which animal is known as the "King of the Jungle"?', 'Lion', 'Tiger', 'Leopard', 'Elephant', 'jawaban1'),
+('What is the chemical symbol for gold?', 'Au', 'Ag', 'Fe', 'Cu', 'jawaban1'),
+('Who developed the theory of general relativity?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('Which country is known for the famous building, the Taj Mahal?', 'India', 'Egypt', 'Turkey', 'Iran', 'jawaban1'),
+('What is the tallest mountain in Africa?', 'Mount Kilimanjaro', 'Mount Kenya', 'Mount Elgon', 'Mount Stanley', 'jawaban1'),
+('Who wrote the book "The Catcher in the Rye"?', 'J.D. Salinger', 'F. Scott Fitzgerald', 'Ernest Hemingway', 'Mark Twain', 'jawaban1'),
+('Which river is the longest river in the world?', 'Nile River', 'Amazon River', 'Congo River', 'Yangtze River', 'jawaban1'),
+('Who discovered penicillin?', 'Alexander Fleming', 'Louis Pasteur', 'Marie Curie', 'Gregor Mendel', 'jawaban1'),
+('What is the currency of Japan?', 'Yen', 'Dollar', 'Euro', 'Pound', 'jawaban1'),
+('Who painted the famous artwork "Mona Lisa"?', 'Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('Which country is known as the "Land of the Thunder Dragon"?', 'Bhutan', 'Nepal', 'Tibet', 'Myanmar', 'jawaban1'),
+('Who is the author of the novel "1984"?', 'George Orwell', 'Aldous Huxley', 'Ray Bradbury', 'J.R.R. Tolkien', 'jawaban1'),
+('What is the largest delta in the world?', 'Ganges Delta', 'Niger Delta', 'Amazon Delta', 'Mekong Delta', 'jawaban1');
+
+CREATE TABLE soaldanjawaban2_3 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban2_3 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of Spain?', 'Madrid', 'Barcelona', 'Valencia', 'Seville', 'jawaban1'),
+('Who wrote the play "Macbeth"?', 'William Shakespeare', 'Charles Dickens', 'Jane Austen', 'Mark Twain', 'jawaban1'),
+('Which planet is closest to the sun?', 'Mercury', 'Venus', 'Earth', 'Mars', 'jawaban1'),
+('What is the largest reptile?', 'Saltwater Crocodile', 'Komodo Dragon', 'Anaconda', 'Green Anaconda', 'jawaban1'),
+('What is the chemical symbol for sodium?', 'Na', 'S', 'K', 'Mg', 'jawaban1'),
+('Who developed the theory of relativity?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('Which country is known for the Great Wall?', 'China', 'India', 'Japan', 'Korea', 'jawaban1'),
+('Who painted the famous artwork "The Last Supper"?', 'Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('What is the tallest mountain in North America?', 'Denali', 'Mount Logan', 'Mount Saint Elias', 'Mount Foraker', 'jawaban1'),
+('What is the currency of Russia?', 'Ruble', 'Dollar', 'Euro', 'Pound', 'jawaban1'),
+('What is the deepest ocean in the world?', 'Pacific Ocean', 'Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean', 'jawaban1'),
+('Who invented the telephone?', 'Alexander Graham Bell', 'Thomas Edison', 'Nikola Tesla', 'Guglielmo Marconi', 'jawaban1'),
+('What is the national flower of France?', 'Lily', 'Rose', 'Tulip', 'Sunflower', 'jawaban1'),
+('Which country is famous for the city of Machu Picchu?', 'Peru', 'Brazil', 'Chile', 'Argentina', 'jawaban1'),
+('Who wrote the book "War and Peace"?', 'Leo Tolstoy', 'Fyodor Dostoevsky', 'Anton Chekhov', 'Alexander Pushkin', 'jawaban1'),
+('What is the largest hot desert in the world?', 'Sahara Desert', 'Gobi Desert', 'Arabian Desert', 'Kalahari Desert', 'jawaban1');
+
+CREATE TABLE soaldanjawaban2_4 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban2_4 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of Australia?', 'Canberra', 'Sydney', 'Melbourne', 'Brisbane', 'jawaban1'),
+('Who is the author of "Pride and Prejudice"?', 'Jane Austen', 'Charles Dickens', 'William Shakespeare', 'Emily Brontë', 'jawaban1'),
+('What is the largest continent by land area?', 'Asia', 'Europe', 'Africa', 'North America', 'jawaban1'),
+('Which animal is known as the "King of the Jungle"?', 'Lion', 'Tiger', 'Leopard', 'Elephant', 'jawaban1'),
+('What is the chemical symbol for gold?', 'Au', 'Ag', 'Fe', 'Cu', 'jawaban1'),
+('Who is credited with the theory of general relativity?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('Which country is known for the famous building, the Colosseum?', 'Italy', 'Greece', 'Spain', 'France', 'jawaban1'),
+('What is the largest bird in the world?', 'Ostrich', 'Eagle', 'Albatross', 'Pelican', 'jawaban1'),
+('Who wrote the novel "The Catcher in the Rye"?', 'J.D. Salinger', 'F. Scott Fitzgerald', 'Ernest Hemingway', 'George Orwell', 'jawaban1'),
+('Which river is the longest in the world?', 'Nile River', 'Amazon River', 'Yangtze River', 'Mississippi River', 'jawaban1'),
+('Who is the first person to step on the moon?', 'Neil Armstrong', 'Buzz Aldrin', 'Alan Shepard', 'Yuri Gagarin', 'jawaban1'),
+('What is the currency of Brazil?', 'Real', 'Peso', 'Euro', 'Dollar', 'jawaban1'),
+('Who painted the famous artwork "Mona Lisa"?', 'Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('Which country is known as the "Land of the Midnight Sun"?', 'Norway', 'Finland', 'Sweden', 'Iceland', 'jawaban1'),
+('Who is the lead vocalist of the band Queen?', 'Freddie Mercury', 'David Bowie', 'Elton John', 'Mick Jagger', 'jawaban1'),
+('What is the smallest ocean in the world?', 'Arctic Ocean', 'Atlantic Ocean', 'Pacific Ocean', 'Indian Ocean', 'jawaban1');
+
+CREATE TABLE soaldanjawaban3_1 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban3_1 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of France?', 'Paris', 'Rome', 'Berlin', 'Madrid', 'jawaban1'),
+('Who is the author of "To Kill a Mockingbird"?', 'Harper Lee', 'John Steinbeck', 'F. Scott Fitzgerald', 'George Orwell', 'jawaban1'),
+('What is the largest planet in our solar system?', 'Jupiter', 'Saturn', 'Neptune', 'Uranus', 'jawaban1'),
+('Which animal is known as the "Ship of the Desert"?', 'Camel', 'Horse', 'Elephant', 'Lion', 'jawaban1'),
+('What is the chemical symbol for iron?', 'Fe', 'Ag', 'Na', 'Hg', 'jawaban1'),
+('Who formulated the theory of evolution by natural selection?', 'Charles Darwin', 'Isaac Newton', 'Albert Einstein', 'Gregor Mendel', 'jawaban1'),
+('Which country is known for the Eiffel Tower?', 'France', 'Italy', 'Spain', 'Germany', 'jawaban1'),
+('Who painted the famous artwork "The Scream"?', 'Edvard Munch', 'Pablo Picasso', 'Vincent van Gogh', 'Leonardo da Vinci', 'jawaban1'),
+('What is the tallest mountain in North America?', 'Denali', 'Mount Rainier', 'Mount Whitney', 'Mount Elbert', 'jawaban1'),
+('What is the currency of China?', 'Yuan', 'Dollar', 'Euro', 'Pound', 'jawaban1'),
+('What is the smallest ocean in the world?', 'Arctic Ocean', 'Atlantic Ocean', 'Pacific Ocean', 'Indian Ocean', 'jawaban1'),
+('Who is known for discovering the theory of general relativity?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('What is the national flower of Japan?', 'Cherry Blossom', 'Rose', 'Lotus', 'Sunflower', 'jawaban1'),
+('Which country is known as the "Land of Fire and Ice"?', 'Iceland', 'Norway', 'Greenland', 'Finland', 'jawaban1'),
+('Who wrote the novel "The Great Gatsby"?', 'F. Scott Fitzgerald', 'Ernest Hemingway', 'J.D. Salinger', 'George Orwell', 'jawaban1'),
+('What is the largest bay in the world?', 'Hudson Bay', 'Baffin Bay', 'Bay of Bengal', 'Chesapeake Bay', 'jawaban1');
+
+CREATE TABLE soaldanjawaban3_2 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban3_2 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of Spain?', 'Madrid', 'Rome', 'Berlin', 'Paris', 'jawaban1'),
+('Who is the author of "The Great Gatsby"?', 'F. Scott Fitzgerald', 'Ernest Hemingway', 'J.D. Salinger', 'Mark Twain', 'jawaban1'),
+('Which planet is the sixth farthest from the sun?', 'Saturn', 'Jupiter', 'Uranus', 'Neptune', 'jawaban1'),
+('Which animal is known as the "Gentle Giant"?', 'Elephant', 'Horse', 'Giraffe', 'Lion', 'jawaban1'),
+('What is the chemical symbol for silver?', 'Ag', 'Fe', 'Na', 'Hg', 'jawaban1'),
+('Who developed the theory of gravity?', 'Isaac Newton', 'Albert Einstein', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('Which country is known for the Great Wall?', 'China', 'India', 'Russia', 'Brazil', 'jawaban1'),
+('Who painted the famous artwork "The Last Supper"?', 'Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('What is the tallest mountain in South America?', 'Mount Aconcagua', 'Mount Kilimanjaro', 'Mount Elbrus', 'Denali', 'jawaban1'),
+('What is the currency of South Korea?', 'Won', 'Dollar', 'Euro', 'Yen', 'jawaban1'),
+('What is the smallest continent in the world?', 'Australia', 'Europe', 'Africa', 'Asia', 'jawaban1'),
+('Who discovered the theory of special relativity?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('What is the national flower of France?', 'Lily', 'Rose', 'Lotus', 'Sunflower', 'jawaban1'),
+('Which country is known as the "Land of Fire"?', 'Azerbaijan', 'Iceland', 'Japan', 'Greece', 'jawaban1'),
+('Who wrote the novel "1984"?', 'George Orwell', 'Aldous Huxley', 'Ray Bradbury', 'H.G. Wells', 'jawaban1'),
+('What is the largest bay in the world?', 'Hudson Bay', 'Baffin Bay', 'Bay of Bengal', 'Chesapeake Bay', 'jawaban1');
+
+CREATE TABLE soaldanjawaban3_3 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban3_3 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the largest planet in our solar system?', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'jawaban1'),
+('Who wrote the novel "To Kill a Mockingbird"?', 'Harper Lee', 'F. Scott Fitzgerald', 'Ernest Hemingway', 'John Steinbeck', 'jawaban1'),
+('What is the chemical symbol for gold?', 'Au', 'Ag', 'Fe', 'Cu', 'jawaban1'),
+('What is the national animal of Australia?', 'Kangaroo', 'Koala', 'Emu', 'Platypus', 'jawaban1'),
+('Which country is known for the pyramids?', 'Egypt', 'Mexico', 'Italy', 'Greece', 'jawaban1'),
+('Who painted the famous artwork "Mona Lisa"?', 'Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('What is the tallest mountain in North America?', 'Denali', 'Mount Everest', 'Mount Kilimanjaro', 'K2', 'jawaban1'),
+('What is the currency of China?', 'Yuan', 'Dollar', 'Euro', 'Pound', 'jawaban1'),
+('Which ocean is the deepest?', 'Pacific Ocean', 'Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean', 'jawaban1'),
+('Who wrote the novel "Pride and Prejudice"?', 'Jane Austen', 'Charlotte Bronte', 'Emily Dickinson', 'Virginia Woolf', 'jawaban1'),
+('What is the national flower of Japan?', 'Cherry Blossom', 'Rose', 'Lotus', 'Sunflower', 'jawaban1'),
+('Which country is known as the "Land of the Midnight Sun"?', 'Norway', 'Finland', 'Sweden', 'Iceland', 'jawaban1'),
+('Who is the first female prime minister of India?', 'Indira Gandhi', 'Margaret Thatcher', 'Golda Meir', 'Angela Merkel', 'jawaban1'),
+('What is the currency of Russia?', 'Ruble', 'Euro', 'Dollar', 'Pound', 'jawaban1'),
+('Who painted the famous artwork "The Persistence of Memory"?', 'Salvador Dalí', 'Pablo Picasso', 'Vincent van Gogh', 'Leonardo da Vinci', 'jawaban1'),
+('Which city is famous for the Colosseum?', 'Rome', 'Athens', 'Paris', 'London', 'jawaban1');
+
+CREATE TABLE soaldanjawaban3_4 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban3_4 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of Spain?', 'Madrid', 'Rome', 'Berlin', 'Paris', 'jawaban1'),
+('Who is the author of "The Great Gatsby"?', 'F. Scott Fitzgerald', 'Ernest Hemingway', 'J.D. Salinger', 'Mark Twain', 'jawaban1'),
+('Which planet is the sixth farthest from the sun?', 'Saturn', 'Jupiter', 'Uranus', 'Neptune', 'jawaban1'),
+('Which animal is known as the "Gentle Giant"?', 'Elephant', 'Horse', 'Giraffe', 'Lion', 'jawaban1'),
+('What is the chemical symbol for silver?', 'Ag', 'Fe', 'Na', 'Hg', 'jawaban1'),
+('Who developed the theory of gravity?', 'Isaac Newton', 'Albert Einstein', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('Which country is known for the Great Wall?', 'China', 'India', 'Russia', 'Brazil', 'jawaban1'),
+('Who painted the famous artwork "The Last Supper"?', 'Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('What is the tallest mountain in South America?', 'Mount Aconcagua', 'Mount Kilimanjaro', 'Mount Elbrus', 'Denali', 'jawaban1'),
+('What is the currency of South Korea?', 'Won', 'Dollar', 'Euro', 'Yen', 'jawaban1'),
+('What is the smallest continent in the world?', 'Australia', 'Europe', 'Africa', 'Asia', 'jawaban1'),
+('Who discovered the theory of special relativity?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('What is the national flower of France?', 'Lily', 'Rose', 'Lotus', 'Sunflower', 'jawaban1'),
+('Which country is known as the "Land of Fire"?', 'Azerbaijan', 'Iceland', 'Japan', 'Greece', 'jawaban1'),
+('Who wrote the novel "1984"?', 'George Orwell', 'Aldous Huxley', 'Ray Bradbury', 'H.G. Wells', 'jawaban1'),
+('What is the largest bay in the world?', 'Hudson Bay', 'Baffin Bay', 'Bay of Bengal', 'Chesapeake Bay', 'jawaban1');
+
+CREATE TABLE soaldanjawaban4_1 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban4_1 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of France?', 'Paris', 'Rome', 'Berlin', 'Madrid', 'jawaban1'),
+('Who is the author of "To Kill a Mockingbird"?', 'Harper Lee', 'F. Scott Fitzgerald', 'J.D. Salinger', 'Mark Twain', 'jawaban1'),
+('Which planet is known as the "Blue Planet"?', 'Earth', 'Mars', 'Venus', 'Mercury', 'jawaban1'),
+('Which animal is known as the "King of the Jungle"?', 'Lion', 'Tiger', 'Leopard', 'Cheetah', 'jawaban1'),
+('What is the chemical symbol for gold?', 'Au', 'Ag', 'Fe', 'Hg', 'jawaban1'),
+('Who proposed the theory of general relativity?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('Which country is known as the "Land of the Midnight Sun"?', 'Norway', 'Finland', 'Sweden', 'Iceland', 'jawaban1'),
+('Who painted the famous artwork "Mona Lisa"?', 'Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('What is the second highest mountain in the world?', 'K2', 'Mount Everest', 'Kangchenjunga', 'Makalu', 'jawaban1'),
+('What is the currency of China?', 'Yuan', 'Dollar', 'Euro', 'Pound', 'jawaban1'),
+('What is the deepest ocean in the world?', 'Pacific Ocean', 'Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean', 'jawaban1'),
+('Who is known as the "Father of Modern Physics"?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('What is the national flower of Japan?', 'Cherry Blossom', 'Rose', 'Lotus', 'Sunflower', 'jawaban1'),
+('Which country is known for the ancient city of Athens?', 'Greece', 'Egypt', 'Rome', 'Italy', 'jawaban1'),
+('Who wrote the novel "Pride and Prejudice"?', 'Jane Austen', 'Emily Bronte', 'Charles Dickens', 'Charlotte Bronte', 'jawaban1'),
+('What is the largest bay in the United States?', 'Chesapeake Bay', 'San Francisco Bay', 'Hudson Bay', 'Baffin Bay', 'jawaban1');
+
+CREATE TABLE soaldanjawaban4_2 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban4_2 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the capital of France?', 'Paris', 'Rome', 'Berlin', 'Madrid', 'jawaban1'),
+('Who is the author of "To Kill a Mockingbird"?', 'Harper Lee', 'F. Scott Fitzgerald', 'J.D. Salinger', 'Mark Twain', 'jawaban1'),
+('Which planet is known as the "Blue Planet"?', 'Earth', 'Mars', 'Venus', 'Mercury', 'jawaban1'),
+('Which animal is known as the "King of the Jungle"?', 'Lion', 'Tiger', 'Leopard', 'Cheetah', 'jawaban1'),
+('What is the chemical symbol for gold?', 'Au', 'Ag', 'Fe', 'Hg', 'jawaban1'),
+('Who proposed the theory of general relativity?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('Which country is known as the "Land of the Midnight Sun"?', 'Norway', 'Finland', 'Sweden', 'Iceland', 'jawaban1'),
+('Who painted the famous artwork "Mona Lisa"?', 'Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Michelangelo', 'jawaban1'),
+('What is the second highest mountain in the world?', 'K2', 'Mount Everest', 'Kangchenjunga', 'Makalu', 'jawaban1'),
+('What is the currency of China?', 'Yuan', 'Dollar', 'Euro', 'Pound', 'jawaban1'),
+('What is the deepest ocean in the world?', 'Pacific Ocean', 'Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean', 'jawaban1'),
+('Who is known as the "Father of Modern Physics"?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'jawaban1'),
+('What is the national flower of Japan?', 'Cherry Blossom', 'Rose', 'Lotus', 'Sunflower', 'jawaban1'),
+('Which country is known for the ancient city of Athens?', 'Greece', 'Egypt', 'Rome', 'Italy', 'jawaban1'),
+('Who wrote the novel "Pride and Prejudice"?', 'Jane Austen', 'Emily Bronte', 'Charles Dickens', 'Charlotte Bronte', 'jawaban1'),
+('What is the largest bay in the United States?', 'Chesapeake Bay', 'San Francisco Bay', 'Hudson Bay', 'Baffin Bay', 'jawaban1');
+
+CREATE TABLE soaldanjawaban4_3 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban4_3 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('Which country invented the smartphone?', 'Canada', 'USA', 'South Korea', 'Japan', 'jawaban3'),
+('What is the worlds largest living organism?', 'Honey fungus', 'Giant sequoia tree', 'Blue whale', 'African baobab tree', 'jawaban1'),
+('Which element makes up about 78% of Earths atmosphere?', 'Nitrogen', 'Oxygen', 'Carbon dioxide', 'Helium', 'jawaban2'),
+('What is the hottest continent on Earth?', 'Africa', 'Australia', 'South America', 'Antarctica', 'jawaban1'),
+('Who wrote the Harry Potter series?', 'J.K. Rowling', 'Stephen King', 'C.S. Lewis', 'J.R.R. Tolkien', 'jawaban1'),
+('What is the largest ocean on Earth?', 'Pacific Ocean', 'Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean', 'jawaban1'),
+('What is the smallest bone in the human body?', 'Stapes', 'Patella', 'Sphenoid', 'Hyoid', 'jawaban1'),
+('What is the Great Barrier Reef made of?', 'Billions of tiny coral polyps', 'Seaweed and algae', 'Sand and rock formations', 'Fish and marine mammals', 'jawaban1'),
+('Which country is home to the worlds tallest waterfall?', 'Venezuela', 'Brazil', 'South Africa', 'Canada', 'jawaban1'),
+('What is the chemical symbol for salt?', 'NaCl', 'NaOH', 'H2O', 'CO2', 'jawaban1'),
+('What is the largest desert in the world?', 'Sahara Desert', 'Gobi Desert', 'Arabian Desert', 'Kalahari Desert', 'jawaban1'),
+('Which city is known as the "Windy City"?', 'Chicago', 'New York City', 'Los Angeles', 'San Francisco', 'jawaban1'),
+('What is the largest moon of Jupiter?', 'Ganymede', 'Europa', 'Io', 'Callisto', 'jawaban1'),
+('Who painted the "Girl with the Pearl Earring"?', 'Johannes Vermeer', 'Rembrandt van Rijn', 'Frans Hals', 'Pieter Bruegel the Elder', 'jawaban1'),
+('What is the capital of Canada?', 'Ottawa', 'Toronto', 'Montreal', 'Vancouver', 'jawaban1'),
+('What is the national sport of Indonesia?', 'Badminton', 'Football (soccer)', 'Basketball', 'Volleyball', 'jawaban1');
+
+CREATE TABLE soaldanjawaban4_4 (
+	soal VARCHAR(100) NOT NULL,
+    jawaban1 VARCHAR(100) NOT NULL,
+    jawaban2 VARCHAR(100) NOT NULL,
+    jawaban3 VARCHAR(100) NOT NULL,
+    jawaban4 VARCHAR(100) NOT NULL,
+    kunciJawaban VARCHAR(20) NOT NULL
+);
+
+INSERT INTO soaldanjawaban4_4 (soal, jawaban1, jawaban2, jawaban3, jawaban4, kunciJawaban)
+VALUES
+('What is the worlds most popular social media platform?', 'Facebook', 'Instagram', 'TikTok', 'Twitter', 'jawaban3'),
+('Which element forms the main component of bones and teeth?', 'Calcium', 'Oxygen', 'Carbon', 'Phosphorus', 'jawaban1'),
+('What is the largest island in the world?', 'Greenland', 'New Guinea', 'Borneo', 'Madagascar', 'jawaban1'),
+('Who painted the "Mona Lisa"?', 'Michelangelo', 'Donatello', 'Leonardo da Vinci', 'Raphael', 'jawaban3'),
+('Which city hosted the first ever Olympic Games?', 'Athens', 'London', 'Rio de Janeiro', 'Paris', 'jawaban1'),
+('What is the chemical symbol for water?', 'H2O', 'CO2', 'O2', 'NaCl', 'jawaban1'),
+('Which mountain range separates North America from South America?', 'Rocky Mountains', 'Andes Mountains', 'Appalachian Mountains', 'Sierra Nevada', 'jawaban2'),
+('What is the name of the worlds longest river?', 'Nile', 'Amazon', 'Yangtze', 'Mississippi-Missouri-Red-Arkansas', 'jawaban1'),
+('What is the largest mammal on Earth by land mass?', 'African Elephant', 'Blue Whale', 'Sperm Whale', 'Southern Right Whale', 'jawaban2'),
+('Who wrote the classic novel "Moby Dick"?', 'Herman Melville', 'Edgar Allan Poe', 'Mark Twain', 'Nathaniel Hawthorne', 'jawaban1'),
+('Which country is home to the Great Barrier Reef?', 'Australia', 'New Zealand', 'Indonesia', 'Fiji', 'jawaban1'),
+('What is the capital city of Germany?', 'Berlin', 'Munich', 'Hamburg', 'Cologne', 'jawaban1'),
+('What is the tallest building in the world currently under construction?', 'Merdeka 118 (Malaysia)', 'Jeddah Tower (Saudi Arabia)', 'The Dubai Torch (United Arab Emirates)', 'Shanghai Tower (China)', 'jawaban1'),
+('What is the name of the largest desert on Earth?', 'Sahara Desert', 'Arabian Desert', 'Gobi Desert', 'Patagonian Desert', 'jawaban1'),
+('What is the scientific name for the common cold?', 'Rhinitis', 'Coryza', 'Pharyngitis', 'Sinusitis', 'jawaban2'),
+('Which planet in our solar system is known for its red color?', 'Mars', 'Venus', 'Earth', 'Saturn', 'jawaban1');
